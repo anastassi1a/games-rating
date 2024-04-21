@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../GitHub/games-rating"
+		},
+		{
+			"path": "../appModules"
+		},
+		{
+			"path": "../dataset"
+		},
+		{
+			"path": "../controllers"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
