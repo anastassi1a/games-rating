@@ -10,14 +10,14 @@ const server = http.createServer((req, res) => {
     case "/":
       mainRouteController(res, "/index.html", ".html");
       break;
-      case '/game':
-        gameRouteController(res);
-        break;
-        case '/vote':
-          voteRouteController(req, res);
-      default:
-        defaultRouteController(res, url);
-        break;
+    case '/game':
+      gameRouteController(res);
+      break;
+    case '/vote':
+      voteRouteController(req, res);
+      break;
+    default:
+      defaultRouteController(res, url);
   }
 });
 
